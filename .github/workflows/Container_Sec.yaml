@@ -14,7 +14,6 @@ on:
         type: choice
         options:
           - main
-          - iac_sec
           - container_sec
 
 jobs:
