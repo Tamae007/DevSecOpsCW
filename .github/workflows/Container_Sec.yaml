@@ -6,6 +6,16 @@ on:
       - main
 
   workflow_dispatch:
+    inputs:
+      target_branch:
+        description: 'Branch to scan'
+        required: true
+        default: 'main'
+        type: choice
+        options:
+          - main
+          - iac_sec
+          - container_sec
 
 jobs:
   scan-public-image:
