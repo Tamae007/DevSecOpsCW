@@ -1,3 +1,10 @@
+name: Docker Scout Container Security
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   scan-public-image:
     runs-on: ubuntu-latest
