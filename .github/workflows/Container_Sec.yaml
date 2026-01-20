@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - container_sec
+      - main
 
   workflow_dispatch:
     inputs:
