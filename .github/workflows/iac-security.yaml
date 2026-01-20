@@ -1,6 +1,10 @@
 name: Trivy IaC Scan (CloudFormation)
 
 on:
+  push:
+    branches:
+      - iac_sec
+
   workflow_dispatch:
     inputs:
       target_branch:
