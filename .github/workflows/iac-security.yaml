@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - iac_sec
+      - main
 
   workflow_dispatch:
     inputs:
