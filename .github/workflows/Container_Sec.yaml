@@ -8,7 +8,6 @@ on:
 
   workflow_dispatch:
 
-
 jobs:
   scan-public-image:
     runs-on: ubuntu-latest
