@@ -4,18 +4,10 @@ on:
   push:
     branches:
       - main
-      - iac_sec
+      - iac_sec1
   
   workflow_dispatch:
-    inputs:
-      target_branch:
-        description: 'Branch to scan'
-        required: true
-        default: 'main'
-        type: choice
-        options:
-          - main
-          - iac_sec
+
 
 jobs:
   trivy-iac-scan:
